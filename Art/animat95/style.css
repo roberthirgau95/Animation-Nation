@@ -1,21 +1,27 @@
+body{
+  text-align: center;
+  text-transform: uppercase;
+  text-size-adjust: 500px;
+  
+}
 div#one {
   height: 100px;
   width: 100%;
-  background: #fbd266;
+  background: #66fb7f;
   animation: slidein 4s linear 4s infinite alternate;
 }
 
 div#two {
   height: 100px;
   width: 100%;
-  background: #d76735;
+  background: #dc1208;
   animation: slidein 0.3s linear 1s infinite alternate;
 }
 
 div#three {
   height: 100px;
   width: 100%;
-  background: #8fb0a9;
+  background: #bc07d4;
   animation: pulse 3s ease infinite alternate,
     nudge 5s linear infinite alternate;
 }
